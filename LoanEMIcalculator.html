@@ -1,0 +1,72 @@
+<!Doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="LoanEMIcalculator.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <title>Shiva Kumar</title>
+        <script src="LoanEMIcalculator.js"></script>
+    </head>
+    <body>
+        <div class="container-fluid">
+            <div class="row">
+                <ul class ="fontsize">
+                    <div class="col-md-4">
+                        <li><a href="Mutukula_shivaKumar.html" >HOME</a></li>
+                    </div>
+                    <div class="col-md-4">
+                        <li><a href="LoanEMIcalculator.html">LoanEMIcalculator</a></li>
+                    </div>
+                    <div class="col-md-4">
+                        <li><a href="contact.html">CONTACTS</a></li>
+                    </div>
+                </ul>
+            </div>
+            <div class ="row" id="form1">
+                <div class="co-md-12">
+                    <h1>EMI calculator for Education Loan</h1>
+                </div> 
+            </div>   
+            <div class ="row">
+                <div class="col-md-6" id="side1">
+                    Loan Amount 
+                </div>
+                <div class="col-md-6" id="side2">
+                    <input type="number" id = "amount" placeholder="Enter the Loan Amount">
+                </div>
+            </div></br>
+
+                <div class ="row">
+                <div class="col-md-6" id="side1">
+                    Interest rate 
+                </div>
+                <div class="col-md-6" id="side2">
+                    <input type="number" id = "intrate" placeholder="Enter interest rate">
+                </div>
+            </div></br>
+            <div class="row">
+                <div class="col-md-6" id="side1">
+                    Loan Tenure 
+                </div>
+                <div class="col-md-6" id="side2">
+                    <input type="number" id = "tenure" placeholder="Enter loan tenure in years">
+                </div>
+            </div> </br>
+            <div class="row" id="form1">
+                <div class="col-md-12">
+                    <input type="submit" onclick="calculate()">
+                </div>
+            </div></br>
+            <div class="row" id="side1">
+                <div class="col-md-6">
+                    Calculted EMI per month
+                </div>
+                <div class="col-md-6" id="side2">
+                    <textarea id="total" rows ="1" cols="10" placeholder="$"></textarea>
+                </div>
+            </div>               
+    </div>       
+    </body>
+
+</html>
